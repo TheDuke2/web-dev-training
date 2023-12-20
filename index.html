@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Roboto:wght@100;300;400;500;700;900&family=Sofia+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>web development training</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="signup_desc">
+          <img id="logo" src="./assets/Logo.svg" alt="logo" />
+          <h3>For Individuals</h3>
+          <p id="landscape_txt">
+            Start benefiting from the wellness experience. For <br />
+            companies looking on increasing productivity, and improving
+            organization wellness.
+          </p> 
+          <p id="mobile_txt">
+            Inspiring wholesome harmony for the mind, body and spirit, for
+            everyone, everywhere.
+          </p>
+        </div>
+        <div class="signup_form">
+          <form action="/signup" method="post">
+            <div class="signup_info">
+              <label for="fname">First Name</label> <br />
+              <input type="text" name="first_name" id="fname" />
+            </div>
+            <div class="signup_info">
+              <label for="lname">Last Name</label><br />
+              <input type="text" name="last_name" id="lname" />
+            </div>
+            <div class="signup_info">
+              <label for="gender">Gender</label> <br />
+              <select name="gender" id="gender">
+                <option value="">Select here</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div class="signup_info">
+              <label for="dob">Date of Birth</label> <br />
+              <input type="text" name="dob" id="dob" />
+            </div>
+            <div class="signup_info">
+              <label for="weight">Weight (KG)</label> <br />
+              <input
+                type="text"
+                name="weight"
+                id="weight"
+                placeholder="Enter Weight"
+              />
+            </div>
+            <div class="signup_info">
+              <label for="height">Height (CM)</label> <br />
+              <input
+                type="text"
+                name="height"
+                id="height"
+                placeholder="Enter height here"
+              />
+            </div>
+            <div class="signup_info">
+              <label for="activity_lvl">Activity Level</label> <br />
+              <select name="activity_lvl" id="activity_lvl">
+                <option value="">Select here</option>
+                <option value=""></option>
+                <option value=""></option>
+              </select>
+            </div>
+            <div class="signup_info">
+              <label for="password">Password</label> <br />
+              <input type="password" name="password" id="password" />
+            </div>
+            <div class="form_footer">
+              <button type="submit">Register</button>
+              <p id="footer">
+                By clicking Register, you agree to our
+                <a href="#">Terms of  Use</a> and our
+                <a href="#">Privacy Policy</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
